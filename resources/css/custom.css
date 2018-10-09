@@ -3,7 +3,10 @@ body {
   font-size: 16px;
 }
 a {
-  color: black;
+  color: #FFF8DC;
+}
+a:hover{
+  color: #FF8C00;
 }
 .navbar-brand {
     font-size: 2em;
@@ -14,45 +17,67 @@ a {
 .navbar-nav{
   font-size: 1.2em;
 }
-.navbar{
-}
 header{
   background-color: #FFF8DC;
+}
+nav a{
+  color: #A52A2A;
 }
 #fonev{
   background: url('../../resources/images/dragonproba.jpg') no-repeat center center;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: fill;
   color: #000000;
   margin-bottom: 0;
+  min-height: 700px;
 }
 #fonev h1{
-  font-size: 4.5em;
-  font-weight: 500;
+  color: #FFF8DC;
+  font-size: 5em;
+  font-weight: 400;
+  padding-top: 40px;
+}
+#fonev p{
+  color: #FFF8DC;
+}
+h1{
+  color: #FFF8DC;
 }
 h3{
   padding-top: 15px;
 }
 #skills{
-  background: url('../../resources/images/sunset.jpg') no-repeat center center;
+  background: url('../../resources/images/dragonskills.jpg') no-repeat center center;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   padding-top: 30px;
-  color: #000000;
+  color: #FFF8DC;
+  min-height: 600px;
 }
 #skills h1{
   font-size: 3.5em;
   font-weight: 600;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#skills h3{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2.5em;
+}
+#skills p{
+  font-size: 1.3em;
+}
+#skills i{
+  padding: 20px;
 }
 #skills1{
   padding-top: 15px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 #portfolio{
   background: url('../../resources/images/sunsetdiff.jpg') no-repeat center center;
@@ -64,14 +89,14 @@ h3{
   padding-bottom: 40px;
 }
 #portfolio h1{
-  color: #202020;
+  color: #FFF8DC;
   font-weight: 600;
   font-size: 4em;
   padding-top: 20px;
   padding-bottom: 70px;
 }
-#portfolio h4{
-
+#portfolio h5,p{
+  color: #FFF8DC;
 }
 #contact{
   background: url('../../resources/images/contacts.jpg') no-repeat center center;
@@ -79,11 +104,14 @@ h3{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height: 500px;
 
 }
 #contact h1{
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-size: 4em;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #contactcont{
   padding: 20px;
