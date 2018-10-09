@@ -2,6 +2,9 @@ body {
   font-family: 'Asul', sans-serif;
   font-size: 16px;
 }
+a {
+  color: black;
+}
 .navbar-brand {
     font-size: 2em;
     letter-spacing: 4px;
@@ -11,16 +14,78 @@ body {
 .navbar-nav{
   font-size: 1.2em;
 }
+.navbar{
+}
+header{
+  background-color: #FFF8DC;
+}
+#fonev{
+  background: url('../../resources/images/dragonproba.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  color: #000000;
+  margin-bottom: 0;
+}
 h3{
   padding-top: 15px;
 }
-#skills1{
+#skills{
+  background: url('../../resources/images/sunset.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   padding-top: 30px;
+  color: #000000;
+}
+#skills h1{
+  font-size: 3.5em;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#skills1{
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 #portfolio{
+  background: url('../../resources/images/sunsetdiff.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 #portfolio h1{
+  color: #202020;
+  font-weight: 600;
+  font-size: 4em;
   padding-top: 20px;
   padding-bottom: 70px;
+}
+#portfolio h4{
+
+}
+#contact{
+  background: url('../../resources/images/contacts.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+#contact h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#contactcont{
+  padding: 20px;
+}
+footer {
+  background: black;
+  color: lightgray;
+  padding: .6em;
 }

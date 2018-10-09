@@ -15,7 +15,7 @@
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#">Oliver Siket</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -32,15 +32,14 @@
     </header>
 
     <main>
-
-      <div class="jumbotron jumbotron-fluid">
+      <div id="fonev" class="jumbotron jumbotron-fluid" style="height: 400px;">
           <div class="container">
               <h1 class="display-4">Oliver: Junior Web Developer</h1>
               <p class="lead">“If you think math is hard try web design.” ... to be continued</p>
           </div>
       </div>
-      <section>
-        <div class="container container-fluid">
+      <section id="skills">
+        <div class="container container-fluid" style="height: 450px;">
           <h1 class="text-center sect-title">Technical Skills</h1>
             <div id="skills1" class="row">
               <div class="col-sm-4 skill text-center">
@@ -71,46 +70,72 @@
       <section id="portfolio">
         <div class="container">
           <h1 class="text-center sect-title">Portfolio</h1>
-            <div class="row">
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-              <div class="col-sm-4 skill text-center">
-                <img src="resources/images/vfxproba1.jpg" class="img-fluid" alt="Responsive image">
-                <h4 class="text-center"><a href="#">David VFX Artist</a></h4>
-              </div>
-            </div>
+          <div class="card-deck">
+<div class="card border-0 bg-transparent">
+  <a href="#"><img class="card-img-top" src="resources/images/proba2.jpg" alt="Card image cap"></a>
+  <div class="card-body">
+    <h5 class="card-title">David VFX</h5>
+    <p class="card-text">My very best friend David's first portfolio website. Career kickstart as a VFX Artist.</p>
+  </div>
+</div>
+<div class="card border-0 bg-transparent">
+  <img class="card-img-top" src="resources/images/proba2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  </div>
+</div>
+<div class="card border-0 bg-transparent">
+  <img class="card-img-top" src="resources/images/proba2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+  </div>
+</div>
+</div>
           </div>
       </section>
-      <section>
+      <section id="contact">
+        <div class="container container-fluid">
+          <h1 class="text-center sect-title">Contact</h1>
+          <div id="contactcont"class="row justify-content-between">
+            <div class="col-sm-6 col-lg-6 text-center">
+              <div class="contact text-center">
+              <a href="#" >
+                <i class="fab fa-twitter fa-5x"></i>
+              </a>
+            </div>
+            </div>
+            <div id="contactcont" class="col-sm-6 col-lg-6 text-center">
+              <div class="contact text-center">
+              <a href="#" >
+                <i class="fab fa-github fa-5x"></i>
+              </a>
+            </div>
+            </div>
+            <div id="contactcont" class="col-sm-6 col-lg-6 text-center">
+              <div class="contact text-center">
+              <a href="#" >
+                <i class="far fa-envelope fa-5x"></i>
+              </a>
+            </div>
+            </div>
+            <div id="contactcont" class="col-sm-6 col-lg-6 text-center">
+              <div class="contact text-center">
+              <a href="#" >
+                <i class="fab fa-facebook-square fa-5x"></i>
+              </a>
+            </div>
+            </div>
+          </div>
 
+        </div>
       </section>
 
     </main>
 
 
-    <footer>
-
-    </footer>
+    <footer class="text-right">Copyright &copy; 2018 Oliver Siket. All rights reserved.</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
